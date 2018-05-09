@@ -961,8 +961,8 @@
                 <div class="card">
                     <div class="header">
                         <h2>
-                            LISTADO DE TICKETS
-                            <small>Todos los tickets solicitados por los criterios de busqueda</small>
+                            LISTADO HISTORICO DEL TICKET
+                            <small>Todos los cambios relacionados al ticket</small>
                         </h2>
                         <ul class="header-dropdown m-r--5">
                             <li class="dropdown">
@@ -981,78 +981,29 @@
                         <table class="table">
                             <thead>
                             <tr>
-                                <th>ticket</th>
-                                <th>legajo</th>
-                                <th>Fecha A</th>
-                                <th>Hora A</th>
+                                <th>Fecha</th>
+                                <th>Hora</th>
                                 <th>Operador</th>
-                                <th>Clasificacion</th>
-                                <th>Estado actual</th>
-                                <th>Fecha ultimo cambio</th>
+                                <th>Clasificación</th>
+                                <th>Estado</th>
+                                <th>Grupo de Resolución</th>
+                                <th>Observaciones</th>
                             </tr>
                             </thead>
                             <tbody>
                             <tr>
-                                <td>101014</td>
-                                <td>00155</td>
                                 <td>10/06/2005</td>
                                 <td>11:45 pm</td>
                                 <td>Franco Pizzuti</td>
-                                <td>Solicitud Usuario de red</td>
+                                <td>
+                                    <button type="button" class="btn btn-primary btn-block waves-effect" data-trigger="focus" data-container="body" data-toggle="popover"
+                                            data-placement="left" title="Popover Title" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
+                                    VER
+                                </button>
+                                </td>
                                 <td>Abierto sin derivar</td>
-                                <td>10/11/2017</td>
+                                <td></td>
                             </tr>
-                            <tr>
-                                <td>101014</td>
-                                <td>00155</td>
-                                <td>10/06/2005</td>
-                                <td>11:45 pm</td>
-                                <td>Franco Pizzuti</td>
-                                <td>Solicitud Usuario de red</td>
-                                <td>Abierto sin derivar</td>
-                                <td>10/11/2017</td>
-                            </tr>
-                            <tr>
-                                <td>101014</td>
-                                <td>00155</td>
-                                <td>10/06/2005</td>
-                                <td>11:45 pm</td>
-                                <td>Franco Pizzuti</td>
-                                <td>Solicitud Usuario de red</td>
-                                <td>Abierto sin derivar</td>
-                                <td>10/11/2017</td>
-                            </tr>
-                            <tr>
-                                <td>101014</td>
-                                <td>00155</td>
-                                <td>10/06/2005</td>
-                                <td>11:45 pm</td>
-                                <td>Franco Pizzuti</td>
-                                <td>Solicitud Usuario de red</td>
-                                <td>Abierto sin derivar</td>
-                                <td>10/11/2017</td>
-                            </tr>
-                            <tr>
-                                <td>101014</td>
-                                <td>00155</td>
-                                <td>10/06/2005</td>
-                                <td>11:45 pm</td>
-                                <td>Franco Pizzuti</td>
-                                <td>Solicitud Usuario de red</td>
-                                <td>Abierto sin derivar</td>
-                                <td>10/11/2017</td>
-                            </tr>
-                            <tr>
-                                <td>101014</td>
-                                <td>00155</td>
-                                <td>10/06/2005</td>
-                                <td>11:45 pm</td>
-                                <td>Franco Pizzuti</td>
-                                <td>Solicitud Usuario de red</td>
-                                <td>Abierto sin derivar</td>
-                                <td>10/11/2017</td>
-                            </tr>
-
                             </tbody>
                         </table>
                     </div>
@@ -1101,6 +1052,9 @@
 
 <!-- Sparkline Chart Plugin Js -->
 <script src="../../plugins/jquery-sparkline/jquery.sparkline.js"></script>
+
+<script src="../../js/pages/ui/tooltips-popovers.js"></script>
+
 
 <!-- Custom Js -->
 <script src="../../js/admin.js"></script>
