@@ -886,11 +886,12 @@
                                 <div class="col-lg-10 col-md-10 col-sm-8 col-xs-7">
                                     <div class="form-group">
                                         <div class="form-line">
-                                            <textarea  id="observaciones_ticket" name="description" cols="30" rows="5" class="form-control no-resize"></textarea>
+                                            <textarea  id="observaciones_ticket" name="description" cols="30" rows="5" class="form-control no-resize" ></textarea>
                                         </div>
                                     </div>
                                 </div>
                             </div>
+
                             <script>
                                 function validar() {
 
@@ -903,14 +904,32 @@
                                         return false;
                                     }
                                     else {
-                                        document.getElementById('miForm').submit();
+                                        swal({
+                                            title: "Esta Seguro",
+                                            text: "Solamente cierre un ticket si esta seguro que fue resuelto",
+                                            icon: "warning",
+                                            buttons: true,
+                                            dangerMode: true,
+                                        })
+                                            .then((willDelete) => {
+                                            if (willDelete) {
+                                                document.getElementById('miForm').submit()
+                                            } else {
+                                                swal("El ticket continua en estado abierto");
                                     }
+                                    });
+
+
+                                            //document.getElementById('miForm').submit()
+                                        }
+
+
                                 }
                             </script>
 
 
+                            <button id="submm" type="button" class="btn btn-primary m-t-15 waves-effect" onclick="validar();">CERRAR TICKET</button>
 
-                            <button type="button" class="btn btn-primary m-t-15 waves-effect" onclick="validar()">CERRAR TICKET</button>
 
 
                         </form>
@@ -988,6 +1007,40 @@
 
 <!--### TERMINAN LOS JS ###-->
 <script src="../../js/pages/ui/modals.js"></script>
+<script src="../../js/pages/ui/dialogs.js"></script>
+
+<!-- SweetAlert Plugin Js -->
+<script src="../../plugins/sweetalert/sweetalert.min.js"></script>
+
+<!--todos-->
+<!-- Jquery Core Js -->
+<script src="../../plugins/jquery/jquery.min.js"></script>
+
+<!-- Bootstrap Core Js -->
+<script src="../../plugins/bootstrap/js/bootstrap.js"></script>
+
+<!-- Select Plugin Js -->
+<script src="../../plugins/bootstrap-select/js/bootstrap-select.js"></script>
+
+<!-- Slimscroll Plugin Js -->
+<script src="../../plugins/jquery-slimscroll/jquery.slimscroll.js"></script>
+
+<!-- Bootstrap Notify Plugin Js -->
+<script src="../../plugins/bootstrap-notify/bootstrap-notify.js"></script>
+
+<!-- Waves Effect Plugin Js -->
+<script src="../../plugins/node-waves/waves.js"></script>
+
+<!-- SweetAlert Plugin Js -->
+<!--<script src="../../plugins/sweetalert/sweetalert.min.js"></script>-->
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+<!-- Custom Js -->
+<script src="../../js/admin.js"></script>
+<script src="../../js/pages/ui/dialogs.js"></script>
+
+<!-- Demo Js -->
+<script src="../../js/demo.js"></script>
 
 
 </body>
