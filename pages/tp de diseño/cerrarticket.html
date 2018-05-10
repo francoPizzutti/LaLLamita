@@ -3,9 +3,8 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
-    <title>Ticket-Seleccionado</title>
+    <title>Cerrar Ticket</title>
     <!-- Favicon-->
     <link rel="icon" href="../../favicon.ico" type="image/x-icon">
 
@@ -17,7 +16,11 @@
     <link href="../../plugins/bootstrap/css/bootstrap.css" rel="stylesheet">
 
 
+    <!-- Bootstrap Material Datetime Picker Css -->
+    <link href="../../plugins/bootstrap-material-datetimepicker/css/bootstrap-material-datetimepicker.css" rel="stylesheet" />
 
+    <!-- Bootstrap Select Css -->
+    <link href="../../plugins/bootstrap-select/css/bootstrap-select.css" rel="stylesheet" />
 
     <!-- Waves Effect Css -->
     <link href="../../plugins/node-waves/waves.css" rel="stylesheet" />
@@ -25,14 +28,18 @@
     <!-- Animation Css -->
     <link href="../../plugins/animate-css/animate.css" rel="stylesheet" />
 
-    <!-- Morris Chart Css-->
-    <link href="../../plugins/morrisjs/morris.css" rel="stylesheet" />
+    <!-- Sweet Alert Css -->
+    <link href="../../plugins/sweetalert/sweetalert.css" rel="stylesheet" />
 
     <!-- Custom Css -->
     <link href="../../css/style.css" rel="stylesheet">
 
     <!-- AdminBSB Themes. You can choose a theme from css/themes instead of get all themes -->
     <link href="../../css/themes/all-themes.css" rel="stylesheet" />
+
+
+
+
 </head>
 
 <body class="theme-red">
@@ -303,20 +310,20 @@
         <div class="menu">
             <ul class="list">
                 <li class="header">MAIN NAVIGATION</li>
-                <li class="active">
-                    <a href="index.html">
+                <li>
+                    <a href="../../index.html">
                         <i class="material-icons">home</i>
                         <span>Home</span>
                     </a>
                 </li>
                 <li>
-                    <a href="pages/typography.html">
+                    <a href="../typography.html">
                         <i class="material-icons">text_fields</i>
                         <span>Typography</span>
                     </a>
                 </li>
                 <li>
-                    <a href="pages/helper-classes.html">
+                    <a href="../helper-classes.html">
                         <i class="material-icons">layers</i>
                         <span>Helper Classes</span>
                     </a>
@@ -333,13 +340,13 @@
                             </a>
                             <ul class="ml-menu">
                                 <li>
-                                    <a href="pages/widgets/cards/basic.html">Basic</a>
+                                    <a href="../widgets/cards/basic.html">Basic</a>
                                 </li>
                                 <li>
-                                    <a href="pages/widgets/cards/colored.html">Colored</a>
+                                    <a href="../widgets/cards/colored.html">Colored</a>
                                 </li>
                                 <li>
-                                    <a href="pages/widgets/cards/no-header.html">No Header</a>
+                                    <a href="../widgets/cards/no-header.html">No Header</a>
                                 </li>
                             </ul>
                         </li>
@@ -349,19 +356,19 @@
                             </a>
                             <ul class="ml-menu">
                                 <li>
-                                    <a href="pages/widgets/infobox/infobox-1.html">Infobox-1</a>
+                                    <a href="../widgets/infobox/infobox-1.html">Infobox-1</a>
                                 </li>
                                 <li>
-                                    <a href="pages/widgets/infobox/infobox-2.html">Infobox-2</a>
+                                    <a href="../widgets/infobox/infobox-2.html">Infobox-2</a>
                                 </li>
                                 <li>
-                                    <a href="pages/widgets/infobox/infobox-3.html">Infobox-3</a>
+                                    <a href="../widgets/infobox/infobox-3.html">Infobox-3</a>
                                 </li>
                                 <li>
-                                    <a href="pages/widgets/infobox/infobox-4.html">Infobox-4</a>
+                                    <a href="../widgets/infobox/infobox-4.html">Infobox-4</a>
                                 </li>
                                 <li>
-                                    <a href="pages/widgets/infobox/infobox-5.html">Infobox-5</a>
+                                    <a href="../widgets/infobox/infobox-5.html">Infobox-5</a>
                                 </li>
                             </ul>
                         </li>
@@ -374,100 +381,100 @@
                     </a>
                     <ul class="ml-menu">
                         <li>
-                            <a href="pages/ui/alerts.html">Alerts</a>
+                            <a href="../ui/alerts.html">Alerts</a>
                         </li>
                         <li>
-                            <a href="pages/ui/animations.html">Animations</a>
+                            <a href="../ui/animations.html">Animations</a>
                         </li>
                         <li>
-                            <a href="pages/ui/badges.html">Badges</a>
+                            <a href="../ui/badges.html">Badges</a>
                         </li>
 
                         <li>
-                            <a href="pages/ui/breadcrumbs.html">Breadcrumbs</a>
+                            <a href="../ui/breadcrumbs.html">Breadcrumbs</a>
                         </li>
                         <li>
-                            <a href="pages/ui/buttons.html">Buttons</a>
+                            <a href="../ui/buttons.html">Buttons</a>
                         </li>
                         <li>
-                            <a href="pages/ui/collapse.html">Collapse</a>
+                            <a href="../ui/collapse.html">Collapse</a>
                         </li>
                         <li>
-                            <a href="pages/ui/colors.html">Colors</a>
+                            <a href="../ui/colors.html">Colors</a>
                         </li>
                         <li>
-                            <a href="pages/ui/dialogs.html">Dialogs</a>
+                            <a href="../ui/dialogs.html">Dialogs</a>
                         </li>
                         <li>
-                            <a href="pages/ui/icons.html">Icons</a>
+                            <a href="../ui/icons.html">Icons</a>
                         </li>
                         <li>
-                            <a href="pages/ui/labels.html">Labels</a>
+                            <a href="../ui/labels.html">Labels</a>
                         </li>
                         <li>
-                            <a href="pages/ui/list-group.html">List Group</a>
+                            <a href="../ui/list-group.html">List Group</a>
                         </li>
                         <li>
-                            <a href="pages/ui/media-object.html">Media Object</a>
+                            <a href="../ui/media-object.html">Media Object</a>
                         </li>
                         <li>
-                            <a href="pages/ui/modals.html">Modals</a>
+                            <a href="../ui/modals.html">Modals</a>
                         </li>
                         <li>
-                            <a href="pages/ui/notifications.html">Notifications</a>
+                            <a href="../ui/notifications.html">Notifications</a>
                         </li>
                         <li>
-                            <a href="pages/ui/pagination.html">Pagination</a>
+                            <a href="../ui/pagination.html">Pagination</a>
                         </li>
                         <li>
-                            <a href="pages/ui/preloaders.html">Preloaders</a>
+                            <a href="../ui/preloaders.html">Preloaders</a>
                         </li>
                         <li>
-                            <a href="pages/ui/progressbars.html">Progress Bars</a>
+                            <a href="../ui/progressbars.html">Progress Bars</a>
                         </li>
                         <li>
-                            <a href="pages/ui/range-sliders.html">Range Sliders</a>
+                            <a href="../ui/range-sliders.html">Range Sliders</a>
                         </li>
                         <li>
-                            <a href="pages/ui/sortable-nestable.html">Sortable & Nestable</a>
+                            <a href="../ui/sortable-nestable.html">Sortable & Nestable</a>
                         </li>
                         <li>
-                            <a href="pages/ui/tabs.html">Tabs</a>
+                            <a href="../ui/tabs.html">Tabs</a>
                         </li>
                         <li>
-                            <a href="pages/ui/thumbnails.html">Thumbnails</a>
+                            <a href="../ui/thumbnails.html">Thumbnails</a>
                         </li>
                         <li>
-                            <a href="pages/ui/tooltips-popovers.html">Tooltips & Popovers</a>
+                            <a href="../ui/tooltips-popovers.html">Tooltips & Popovers</a>
                         </li>
                         <li>
-                            <a href="pages/ui/waves.html">Waves</a>
+                            <a href="../ui/waves.html">Waves</a>
                         </li>
                     </ul>
                 </li>
-                <li>
+                <li class="active">
                     <a href="javascript:void(0);" class="menu-toggle">
                         <i class="material-icons">assignment</i>
                         <span>Forms</span>
                     </a>
                     <ul class="ml-menu">
                         <li>
-                            <a href="pages/forms/basic-form-elements.html">Basic Form Elements</a>
+                            <a href="../forms/basic-form-elements.html">Basic Form Elements</a>
                         </li>
                         <li>
-                            <a href="pages/forms/advanced-form-elements.html">Advanced Form Elements</a>
+                            <a href="../forms/advanced-form-elements.html">Advanced Form Elements</a>
+                        </li>
+                        <li class="active">
+                            <a href="../forms/form-examples.html">Form Examples</a>
                         </li>
                         <li>
-                            <a href="pages/forms/form-examples.html">Form Examples</a>
+                            <a href="../forms/form-validation.html">Form Validation</a>
                         </li>
                         <li>
-                            <a href="pages/forms/form-validation.html">Form Validation</a>
+                            <a href="../forms/form-wizard.html">Form Wizard</a>
                         </li>
                         <li>
-                            <a href="pages/forms/form-wizard.html">Form Wizard</a>
-                        </li>
-                        <li>
-                            <a href="pages/forms/editors.html">Editors</a>
+                            <a href="../forms/editors.html">Editors</a>
                         </li>
                     </ul>
                 </li>
@@ -478,13 +485,13 @@
                     </a>
                     <ul class="ml-menu">
                         <li>
-                            <a href="pages/tables/normal-tables.html">Normal Tables</a>
+                            <a href="../tables/normal-tables.html">Normal Tables</a>
                         </li>
                         <li>
-                            <a href="pages/tables/jquery-datatable.html">Jquery Datatables</a>
+                            <a href="../tables/jquery-datatable.html">Jquery Datatables</a>
                         </li>
                         <li>
-                            <a href="pages/tables/editable-table.html">Editable Tables</a>
+                            <a href="../tables/editable-table.html">Editable Tables</a>
                         </li>
                     </ul>
                 </li>
@@ -495,10 +502,10 @@
                     </a>
                     <ul class="ml-menu">
                         <li>
-                            <a href="pages/medias/image-gallery.html">Image Gallery</a>
+                            <a href="../medias/image-gallery.html">Image Gallery</a>
                         </li>
                         <li>
-                            <a href="pages/medias/carousel.html">Carousel</a>
+                            <a href="../medias/carousel.html">Carousel</a>
                         </li>
                     </ul>
                 </li>
@@ -509,19 +516,19 @@
                     </a>
                     <ul class="ml-menu">
                         <li>
-                            <a href="pages/charts/morris.html">Morris</a>
+                            <a href="../charts/morris.html">Morris</a>
                         </li>
                         <li>
-                            <a href="pages/charts/flot.html">Flot</a>
+                            <a href="../charts/flot.html">Flot</a>
                         </li>
                         <li>
-                            <a href="pages/charts/chartjs.html">ChartJS</a>
+                            <a href="../charts/chartjs.html">ChartJS</a>
                         </li>
                         <li>
-                            <a href="pages/charts/sparkline.html">Sparkline</a>
+                            <a href="../charts/sparkline.html">Sparkline</a>
                         </li>
                         <li>
-                            <a href="pages/charts/jquery-knob.html">Jquery Knob</a>
+                            <a href="../charts/jquery-knob.html">Jquery Knob</a>
                         </li>
                     </ul>
                 </li>
@@ -532,22 +539,22 @@
                     </a>
                     <ul class="ml-menu">
                         <li>
-                            <a href="pages/examples/sign-in.html">Sign In</a>
+                            <a href="../examples/sign-in.html">Sign In</a>
                         </li>
                         <li>
-                            <a href="pages/examples/sign-up.html">Sign Up</a>
+                            <a href="../examples/sign-up.html">Sign Up</a>
                         </li>
                         <li>
-                            <a href="pages/examples/forgot-password.html">Forgot Password</a>
+                            <a href="../examples/forgot-password.html">Forgot Password</a>
                         </li>
                         <li>
-                            <a href="pages/examples/blank.html">Blank Page</a>
+                            <a href="../examples/blank.html">Blank Page</a>
                         </li>
                         <li>
-                            <a href="pages/examples/404.html">404 - Not Found</a>
+                            <a href="../examples/404.html">404 - Not Found</a>
                         </li>
                         <li>
-                            <a href="pages/examples/500.html">500 - Server Error</a>
+                            <a href="../examples/500.html">500 - Server Error</a>
                         </li>
                     </ul>
                 </li>
@@ -558,13 +565,13 @@
                     </a>
                     <ul class="ml-menu">
                         <li>
-                            <a href="pages/maps/google.html">Google Map</a>
+                            <a href="../maps/google.html">Google Map</a>
                         </li>
                         <li>
-                            <a href="pages/maps/yandex.html">YandexMap</a>
+                            <a href="../maps/yandex.html">YandexMap</a>
                         </li>
                         <li>
-                            <a href="pages/maps/jvectormap.html">jVectorMap</a>
+                            <a href="../maps/jvectormap.html">jVectorMap</a>
                         </li>
                     </ul>
                 </li>
@@ -611,7 +618,7 @@
                     </ul>
                 </li>
                 <li>
-                    <a href="pages/changelogs.html">
+                    <a href="../changelogs.html">
                         <i class="material-icons">update</i>
                         <span>Changelogs</span>
                     </a>
@@ -798,7 +805,7 @@
 <section class="content">
     <div class="container-fluid">
         <div class="block-header">
-            <h2>DETALLE DE TICKET</h2>
+            <h2>CERRAR TICKET</h2>
         </div>
 
 
@@ -808,13 +815,12 @@
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                 <div class="card">
                     <div class="header">
-                        <h2>
-                            DETALLE DE LOS DATOS DEL USUARIO
-                            <small>Se presentan aqui los detalles del usuario que hizo el reclamo</small>
+                        <h2>CERRAR TICKET SOLO EN CASO DE QUE EL PROBLEMA ESTE RESUELTO
                         </h2>
                         <ul class="header-dropdown m-r--5">
                             <li class="dropdown">
-                                <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                                <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown"
+                                   role="button" aria-haspopup="true" aria-expanded="false">
                                     <i class="material-icons">more_vert</i>
                                 </a>
                                 <ul class="dropdown-menu pull-right">
@@ -826,340 +832,135 @@
                         </ul>
                     </div>
                     <div class="body">
+                        <form action="listaticket.html" id="miForm">
 
-                        <!-- columnas md6 nombre y apellido-->
-
-                        <div class="row clearfix">
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <div class="form-line">
-                                        <label for="nombre">Nombre</label>
-                                        <input type="text" id="nombre" class="form-control" value="Lisandro Adolfo" readonly>
+                            <!-- NUMERO DE TICKET -->
+                            <div class="row clearfix">
+                                <div class="col-lg-2 col-md-2 col-sm-4 col-xs-5 form-control-label">
+                                    <label for="estado_ticket">Nuevo estado de Ticket</label>
+                                </div>
+                                <div class="col-lg-10 col-md-10 col-sm-8 col-xs-7">
+                                    <div class="form-group">
+                                        <div class="form-line">
+                                            <input type="text" id="estado_ticket" class="form-control" value="cerrado" readonly>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
 
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <div class="form-line">
-                                        <label for="apellido">Apellido</label>
-                                        <input type="text" id="apellido" class="form-control" value="Rattero" readonly>
-                                    </div>
+
+                            <!-- FECHA DEL TICKET -->
+                            <div class="row clearfix">
+                                <div class="col-lg-2 col-md-2 col-sm-4 col-xs-5 form-control-label">
+                                    <label for="fecha_cierre">Fecha de Cierre</label>
                                 </div>
-                            </div>
-                        </div>
-
-                        <!-- #END# Columnas md6-->
-
-
-                        <!-- columnas md6 legajo y cargo-->
-
-                        <div class="row clearfix">
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <div class="form-line">
-                                        <label for="legajo">Número de Legajo</label>
-                                        <input type="text" class="form-control" id="legajo" value="001014" readonly>
+                                <div class="col-lg-10 col-md-10 col-sm-8 col-xs-7">
+                                    <div class="form-group">
+                                        <div class="form-line">
+                                            <input type="text" id="fecha_cierre" class="form-control date" value="08/05/2018" readonly>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
 
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <div class="form-line">
-                                        <label for="cargo">Descripción de Cargo</label>
-                                        <input type="text" id="cargo" class="form-control" value="Encargado General" readonly>
-                                    </div>
+
+                            <!-- HORA DEL TICKET-->
+                            <div class="row clearfix">
+                                <div class="col-lg-2 col-md-2 col-sm-4 col-xs-5 form-control-label">
+                                    <label for="hora_cierre">Hora de Cierre</label>
                                 </div>
-                            </div>
-                        </div>
-
-                        <!-- #END# Columnas md6-->
-
-
-                        <!-- columnas md6 telefono  telefono-->
-
-                        <div class="row clearfix">
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <div class="form-line">
-                                        <label for="interno">Telefono Interno</label>
-                                        <input type="text" class="form-control" id="interno" value="114" readonly>
+                                <div class="col-lg-10 col-md-10 col-sm-8 col-xs-7">
+                                    <div class="form-group">
+                                        <div class="form-line">
+                                            <input type="text" id="hora_cierre" class="form-control time12" value="11:43 pm" readonly>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
 
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <div class="form-line">
-                                        <label for="directo">Teléfono Directo</label>
-                                        <input type="text" class="form-control" id="directo" value="0343-4535351" readonly>
+                            <!-- DESCRIPCION DEL PROBLEMA-->
+                            <div class="row clearfix">
+                                <div class="col-lg-2 col-md-2 col-sm-4 col-xs-5 form-control-label">
+                                    <label for="observaciones_ticket">Observaciones</label>
+                                </div>
+                                <div class="col-lg-10 col-md-10 col-sm-8 col-xs-7">
+                                    <div class="form-group">
+                                        <div class="form-line">
+                                            <textarea  id="observaciones_ticket" name="description" cols="30" rows="5" class="form-control no-resize"></textarea>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-
-                        <!-- #END# Columnas md6-->
-
+                            <script>
+                                function validar() {
 
 
+                                    var texto = document.getElementById('observaciones_ticket').value;
+
+                                    if (texto == '') {
+
+                                        $('#mdModal').modal("show");
+                                        return false;
+                                    }
+                                    else {
+                                        document.getElementById('miForm').submit();
+                                    }
+                                }
+                            </script>
 
 
 
+                            <button type="button" class="btn btn-primary m-t-15 waves-effect" onclick="validar()">CERRAR TICKET</button>
 
 
-
-
-
-                        <div class="row clearfix">
-                            <div class="col-md-3">
-                                <div class="form-group">
-                                    <div class="form-line">
-                                        <label for="calle">Calle</label>
-                                        <input type="text" id="calle" class="form-control" value="Suipacha" readonly>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-3">
-                                <div class="form-group">
-                                    <div class="form-line">
-                                        <label for="numeroCalle">Número</label>
-                                        <input type="text" class="form-control" id="numeroCalle" value="3919" readonly>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-3">
-                                <div class="form-group">
-                                    <div class="form-line">
-                                        <label for="piso">Piso</label>
-                                        <input type="text" id="piso" class="form-control" value="5-b" readonly>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-3">
-                                <div class="form-group">
-                                    <div class="form-line">
-                                        <label for="oficina">Oficina</label>
-                                        <input type="text" id="oficina" class="form-control" value="Administración" readonly>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-
+                        </form>
                     </div>
                 </div>
             </div>
+
+
         </div>
-        <!-- #END# Multi Column -->
-
-
-
-        <!-- Basic Table -->
-        <div class="row clearfix">
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                <div class="card">
-                    <div class="header">
-                        <h2>
-                            LISTADO HISTORICO DEL TICKET
-                            <small>Todos los cambios relacionados al ticket</small>
-                        </h2>
-                        <ul class="header-dropdown m-r--5">
-                            <li class="dropdown">
-                                <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-                                    <i class="material-icons">more_vert</i>
-                                </a>
-                                <ul class="dropdown-menu pull-right">
-                                    <li><a href="javascript:void(0);">Action</a></li>
-                                    <li><a href="javascript:void(0);">Another action</a></li>
-                                    <li><a href="javascript:void(0);">Something else here</a></li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="body table-responsive">
-                        <table class="table">
-                            <thead>
-                            <tr>
-                                <th>Fecha</th>
-                                <th>Hora</th>
-                                <th>Operador</th>
-                                <th>Estado</th>
-                                <th>Grupo de Resolución</th>
-                                <th>Clasificación</th>
-
-                                <th>Observaciones</th>
-                            </tr>
-                            </thead>
-                            <tbody>
-                            <tr>
-                                <td>10/06/2005</td>
-                                <td>11:45 pm</td>
-                                <td>Franco Pizzuti</td>
-                                <td>Abierto sin derivar</td>
-                                <td>
-                                    Administrador SUSE linux
-                                </td>
-                                <td>
-                                    <div class="button-demo">
-                                    <button type="button" class="btn bg-deep-orange waves-effect btn-xs" data-trigger="focus" data-container="body" data-toggle="popover"
-                                            data-placement="left" title="Clasificación de Ticket" data-content="Solicitud de usuario para sistemas informaticos que utiliza la empresa">
-                                        <i class="material-icons">more_horiz</i>
-                                    </button>
-                                    </div>
-                                </td>
-
-                                <td>
-                                    <div class="button-demo js-modal-buttons">
-                                        <button type="button" data-color="red" class="btn bg-red waves-effect btn-xs"><i class="material-icons">more_horiz</i></button>
-
-                                    </div>
-                                </td>
-                            </tr>
-
-                            <tr>
-                                <td>10/06/2005</td>
-                                <td>11:45 pm</td>
-                                <td>Franco Pizzuti</td>
-                                <td>Abierto sin derivar</td>
-                                <td>
-                                    Administrador SUSE linux
-                                </td>
-                                <td>
-                                    <div class="button-demo">
-                                        <button type="button" class="btn bg-deep-orange waves-effect btn-xs" data-trigger="focus" data-container="body" data-toggle="popover"
-                                                data-placement="left" title="Clasificación de Ticket" data-content="Solicitud de usuario para sistemas informaticos que utiliza la empresa">
-                                            <i class="material-icons">more_horiz</i>
-                                        </button>
-                                    </div>
-                                </td>
-
-                                <td>
-                                    <div class="button-demo js-modal-buttons">
-                                        <button type="button" data-color="red" class="btn bg-red waves-effect btn-xs"><i class="material-icons">more_horiz</i></button>
-
-                                    </div>
-                                </td>
-                            </tr>
-
-                            <tr>
-                                <td>10/06/2005</td>
-                                <td>11:45 pm</td>
-                                <td>Franco Pizzuti</td>
-                                <td>Abierto sin derivar</td>
-                                <td>
-                                    Administrador SUSE linux
-                                </td>
-                                <td>
-                                    <div class="button-demo">
-                                        <button type="button" class="btn bg-deep-orange waves-effect btn-xs" data-trigger="focus" data-container="body" data-toggle="popover"
-                                                data-placement="left" title="Clasificación de Ticket" data-content="Solicitud de usuario para sistemas informaticos que utiliza la empresa">
-                                            <i class="material-icons">more_horiz</i>
-                                        </button>
-                                    </div>
-                                </td>
-
-                                <td>
-                                    <div class="button-demo js-modal-buttons">
-                                        <button type="button" data-color="red" class="btn bg-red waves-effect btn-xs"><i class="material-icons">more_horiz</i></button>
-
-                                    </div>
-                                </td>
-                            </tr>
-
-                            <tr>
-                                <td>10/06/2005</td>
-                                <td>11:45 pm</td>
-                                <td>Franco Pizzuti</td>
-                                <td>Abierto sin derivar</td>
-                                <td>
-                                    Administrador SUSE linux
-                                </td>
-                                <td>
-                                    <div class="button-demo">
-                                        <button type="button" class="btn bg-deep-orange waves-effect btn-xs" data-trigger="focus" data-container="body" data-toggle="popover"
-                                                data-placement="left" title="Clasificación de Ticket" data-content="Solicitud de usuario para sistemas informaticos que utiliza la empresa">
-                                            <i class="material-icons">more_horiz</i>
-                                        </button>
-                                    </div>
-                                </td>
-
-                                <td>
-                                    <div class="button-demo js-modal-buttons">
-                                        <button type="button" data-color="red" class="btn bg-red waves-effect btn-xs"><i class="material-icons">more_horiz</i></button>
-
-                                    </div>
-                                </td>
-                            </tr>
-
-                            <tr>
-                                <td>10/06/2005</td>
-                                <td>11:45 pm</td>
-                                <td>Franco Pizzuti</td>
-                                <td>Abierto sin derivar</td>
-                                <td>
-                                    Administrador SUSE linux
-                                </td>
-                                <td>
-                                    <div class="button-demo">
-                                        <button type="button" class="btn bg-deep-orange waves-effect btn-xs" data-trigger="focus" data-container="body" data-toggle="popover"
-                                                data-placement="left" title="Clasificación de Ticket" data-content="Solicitud de usuario para sistemas informaticos que utiliza la empresa">
-                                            <i class="material-icons">more_horiz</i>
-                                        </button>
-                                    </div>
-                                </td>
-
-                                <td>
-                                    <div class="button-demo js-modal-buttons">
-                                        <button type="button" data-color="red" class="btn bg-red waves-effect btn-xs"><i class="material-icons">more_horiz</i></button>
-
-                                    </div>
-                                </td>
-                            </tr>
-
-
-
-
-                            </tbody>
-                        </table>
-                        <!-- For Material Design Colors -->
-                        <div class="modal fade" id="mdModal" tabindex="-1" role="dialog">
-                            <div class="modal-dialog" role="document">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h4 class="modal-title" id="defaultModalLabel">Observaciones</h4>
-                                    </div>
-                                    <div class="modal-body">
-                                        El ticket fue derivado al sector de diseño de sistemas porque el area de base de datos concluyo
-                                        con las tareas programas.
-                                    </div>
-                                    <div class="modal-footer">
-
-                                        <button type="button" class="btn btn-link waves-effect" data-dismiss="modal">CLOSE</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- #END# Basic Table -->
-
-
 
 
     </div>
 
+    <!-- For Material Design Colors -->
+    <div class="modal fade" id="mdModal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content" style="background-color: #F44336; color: white">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="defaultModalLabel">Modal title</h4>
+                </div>
+                <div class="modal-body" style="color: white">
+                    Debe añadir una descripción en las opciones.
+                </div>
+                <div class="modal-footer" style="background-color: rgba(0, 0, 0, 0.12);">
 
+                    <style>#unique:hover{
+                        background-color: rgba(0, 0, 0, 0.12);
+
+                    }</style>
+
+                    <button type="button" class="btn btn-link waves-effect" data-dismiss="modal"
+                            id="unique" style="color: white"c>CLOSE</button>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
 
 
-<!-- Modal  -->
-<script src="../../js/pages/ui/modals.js"></script>
+
+
+
+<!-- Waves Effect Plugin Js -->
+<script src="../../plugins/node-waves/waves.js"></script>
+
 
 <!-- Demo Js -->
 <script src="../../js/demo.js"></script>
+
+<!-- ### TODOS LOS JS ###-->
 <!-- Jquery Core Js -->
 <script src="../../plugins/jquery/jquery.min.js"></script>
 
@@ -1172,65 +973,22 @@
 <!-- Slimscroll Plugin Js -->
 <script src="../../plugins/jquery-slimscroll/jquery.slimscroll.js"></script>
 
-<!-- Waves Effect Plugin Js -->
-<script src="../../plugins/node-waves/waves.js"></script>
+<!-- Bootstrap Colorpicker Js -->
+<script src="../../plugins/bootstrap-colorpicker/js/bootstrap-colorpicker.js"></script>
 
-<!-- Jquery CountTo Plugin Js -->
-<script src="../../plugins/jquery-countto/jquery.countTo.js"></script>
+<!-- Dropzone Plugin Js -->
+<script src="../../plugins/dropzone/dropzone.js"></script>
 
-<!-- Morris Plugin Js -->
-<script src="../../plugins/raphael/raphael.min.js"></script>
-<script src="../../plugins/morrisjs/morris.js"></script>
-
-<!-- ChartJs -->
-<script src="../../plugins/chartjs/Chart.bundle.js"></script>
-
-<!-- Flot Charts Plugin Js -->
-<script src="../../plugins/flot-charts/jquery.flot.js"></script>
-<script src="../../plugins/flot-charts/jquery.flot.resize.js"></script>
-<script src="../../plugins/flot-charts/jquery.flot.pie.js"></script>
-<script src="../../plugins/flot-charts/jquery.flot.categories.js"></script>
-<script src="../../plugins/flot-charts/jquery.flot.time.js"></script>
-
-<!-- Sparkline Chart Plugin Js -->
-<script src="../../plugins/jquery-sparkline/jquery.sparkline.js"></script>
-
-<script src="../../js/pages/ui/tooltips-popovers.js"></script>
-
+<!-- Input Mask Plugin Js -->
+<script src="../../plugins/jquery-inputmask/jquery.inputmask.bundle.js"></script>
 
 <!-- Custom Js -->
 <script src="../../js/admin.js"></script>
-<script src="../../js/pages/index.js"></script>
+<script src="../../js/pages/forms/advanced-form-elements.js"></script>
 
-<!-- Demo Js -->
-<script src="../../js/demo.js"></script>
-
-<!--todos los modal->
-<!-- Jquery Core Js -->
-<script src="../../plugins/jquery/jquery.min.js"></script>
-
-<!-- Bootstrap Core Js -->
-<script src="../../plugins/bootstrap/js/bootstrap.js"></script>
-
-<!-- Select Plugin Js -->
-<script src="../../plugins/bootstrap-select/js/bootstrap-select.js"></script>
-
-<!-- Slimscroll Plugin Js -->
-<script src="../../plugins/jquery-slimscroll/jquery.slimscroll.js"></script>
-
-<!-- Bootstrap Notify Plugin Js -->
-<script src="../../plugins/bootstrap-notify/bootstrap-notify.js"></script>
-
-<!-- Waves Effect Plugin Js -->
-<script src="../../plugins/node-waves/waves.js"></script>
-
-<!-- Custom Js -->
-<script src="../../js/admin.js"></script>
+<!--### TERMINAN LOS JS ###-->
 <script src="../../js/pages/ui/modals.js"></script>
 
-<!-- Demo Js -->
-<script src="../../js/demo.js"></script>
-<!--end todos los modal-->
 
 </body>
 
