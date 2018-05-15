@@ -6,14 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="9cc80a0d-131d-4e12-82e4-a9a2a42f09f0" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/tp de diseño/ActualizarIntervencion.html" afterPath="$PROJECT_DIR$/pages/tp de diseño/ActualizarIntervencion.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/tp de diseño/cerrarticket.html" afterPath="$PROJECT_DIR$/pages/tp de diseño/cerrarticket.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/tp de diseño/consultarIntervenciones.html" afterPath="$PROJECT_DIR$/pages/tp de diseño/consultarIntervenciones.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/tp de diseño/consultarticket.html" afterPath="$PROJECT_DIR$/pages/tp de diseño/consultarticket.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/tp de diseño/derivarTicket.html" afterPath="$PROJECT_DIR$/pages/tp de diseño/derivarTicket.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/tp de diseño/infoticket.html" afterPath="$PROJECT_DIR$/pages/tp de diseño/infoticket.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/tp de diseño/listaIntervenciones.html" afterPath="$PROJECT_DIR$/pages/tp de diseño/listaIntervenciones.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/tp de diseño/registrarticket.html" afterPath="$PROJECT_DIR$/pages/tp de diseño/registrarticket.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -41,8 +33,8 @@
       <file leaf-file-name="ActualizarIntervencion.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/tp de diseño/ActualizarIntervencion.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="846" column="42" lean-forward="false" selection-start-line="846" selection-start-column="42" selection-end-line="846" selection-end-column="42" />
+            <state relative-caret-position="88">
+              <caret line="856" column="19" lean-forward="false" selection-start-line="856" selection-start-column="19" selection-end-line="856" selection-end-column="19" />
               <folding>
                 <element signature="n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#2;n#form#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -140,6 +132,7 @@
     </dirStrings>
   </component>
   <component name="Git.Settings">
+    <option name="UPDATE_TYPE" value="MERGE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -356,12 +349,20 @@
       <workItem from="1526385848475" duration="4082000" />
       <workItem from="1526346810946" duration="99000" />
       <workItem from="1526346985949" duration="2090000" />
-      <workItem from="1526414751612" duration="6073000" />
+      <workItem from="1526414751612" duration="6585000" />
     </task>
+    <task id="LOCAL-00001" summary="MODIFIQUE VARIOS ARCHIVOS">
+      <created>1526422561827</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1526422561827</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45455000" />
+    <option name="totallyTimeSpent" value="45967000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="0" width="1377" height="744" extended-state="0" />
@@ -391,6 +392,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="MODIFIQUE VARIOS ARCHIVOS" />
+    <option name="LAST_COMMIT_MESSAGE" value="MODIFIQUE VARIOS ARCHIVOS" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1019,8 +1024,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/tp de diseño/ActualizarIntervencion.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="846" column="42" lean-forward="false" selection-start-line="846" selection-start-column="42" selection-end-line="846" selection-end-column="42" />
+        <state relative-caret-position="88">
+          <caret line="856" column="19" lean-forward="false" selection-start-line="856" selection-start-column="19" selection-end-line="856" selection-end-column="19" />
           <folding>
             <element signature="n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#2;n#form#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="false" />
