@@ -39,31 +39,32 @@
 
 <style>
     .swal-footer {
-        background-color: #D63B2F;
+        background-color: #CD1A57;
         margin-top: 32px;
         overflow: hidden;
     }
 
     .swal-button {
-        border: hidden;
-
+        border-radius: inherit;
         font-size: 12px;
         color: white;
-        background-color: #D63B2F;
+        background-color: #CD1A57;
 
     }
 
-    .swal-button--confirm {
+    .swal-button:focus {
+        background-color: yellow;
         border:hidden;
+        border-radius: inherit;
         font-size: 12px;
         color: white;
-        background-color: #D63B2F;
+        background-color: #CD1A57;
 
     }
 
     .swal-modal {
         /*background-color: rgba(255,0,0,0.69);*/
-        background-color: #F44336;
+        background-color: #E91E63;
 
 
     }
@@ -75,7 +76,8 @@
     .swal-title {
         color:white;
         margin: 0px;
-        font-size: 16px;
+        ont-weight:bold;
+        font-size:16px;
         box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.21);
         margin-bottom: 28px;
     }
@@ -753,10 +755,25 @@
 
 
                                         swal({
-                                            title: "Esta Segurisimo",
+                                            title: "¿Esta Seguro?",
                                             text: "Solamente cierre un ticket si esta seguro que fue resuelto",
                                             icon: "warning",
-                                            buttons: true,
+                                            buttons: {
+                                                cancel: {
+                                                    text: "Cancelar",
+                                                    value: false,
+                                                    visible: true,
+                                                    className: "",
+                                                    closeModal: true,
+                                                },
+                                                confirm: {
+                                                    text: "Aceptar",
+                                                    value: true,
+                                                    visible: true,
+                                                    className: "",
+                                                    closeModal: true
+                                                }
+                                            },
                                             dangerMode: true,
                                         })
                                             .then((willDelete) => {
@@ -778,10 +795,15 @@
                                 }
                             </script>
 
+                            <!-- BOTONES-->
+                            <div class="row clearfix">
+                                <div class="col-lg-offset-2 col-md-offset-2 col-sm-offset-4 col-xs-offset-5">
 
-                            <button id="submm" type="button" class="btn btn-primary m-t-15 waves-effect" onclick="validar();">CERRAR TICKET</button>
 
+                            <button id="submm" type="button" class="btn bg-cyan m-t-15 waves-effect" onclick="validar();">CERRAR TICKET</button>
 
+                                </div>
+                            </div>
 
                         </form>
                     </div>
@@ -797,12 +819,12 @@
     <!-- For Material Design Colors -->
     <div class="modal fade" id="mdModal" tabindex="-1" role="dialog">
         <div class="modal-dialog" role="document">
-            <div class="modal-content" style="background-color: #F44336; color: white">
+            <div class="modal-content bg-pink" style="color: white">
                 <div class="modal-header">
-                    <h4 class="modal-title" id="defaultModalLabel">Modal title</h4>
+                    <h4 class="modal-title" id="defaultModalLabel">Debe rellenar el campo</h4>
                 </div>
                 <div class="modal-body" style="color: white">
-                    Debe añadir una descripción en las opciones.
+                    Debe añadir una descripción en las observaciones.
                 </div>
                 <div class="modal-footer" style="background-color: rgba(0, 0, 0, 0.12);">
 
