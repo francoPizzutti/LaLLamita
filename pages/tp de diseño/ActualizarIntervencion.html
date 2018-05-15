@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
-    <title>Cerrar Ticket</title>
+    <title>Actualizar Intervencion</title>
     <!-- Favicon-->
     <link rel="icon" href="../../favicon.ico" type="image/x-icon">
 
@@ -37,49 +37,7 @@
     <!-- AdminBSB Themes. You can choose a theme from css/themes instead of get all themes -->
     <link href="../../css/themes/all-themes.css" rel="stylesheet" />
 
-<style>
-    .swal-footer {
-        background-color: #D63B2F;
-        margin-top: 32px;
-        overflow: hidden;
-    }
 
-    .swal-button {
-        border: hidden;
-
-        font-size: 12px;
-        color: white;
-        background-color: #D63B2F;
-
-    }
-
-    .swal-button--confirm {
-        border:hidden;
-        font-size: 12px;
-        color: white;
-        background-color: #D63B2F;
-
-    }
-
-    .swal-modal {
-        /*background-color: rgba(255,0,0,0.69);*/
-        background-color: #F44336;
-
-
-    }
-    .swal-text {
-        text-align: center;
-        color: white;
-    }
-
-    .swal-title {
-        color:white;
-        margin: 0px;
-        font-size: 16px;
-        box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.21);
-        margin-bottom: 28px;
-    }
-</style>
 
 
 </head>
@@ -106,7 +64,15 @@
 <div class="overlay"></div>
 <!-- #END# Overlay For Sidebars -->
 <!-- Search Bar -->
-
+<div class="search-bar">
+    <div class="search-icon">
+        <i class="material-icons">search</i>
+    </div>
+    <input type="text" placeholder="START TYPING...">
+    <div class="close-search">
+        <i class="material-icons">close</i>
+    </div>
+</div>
 <!-- #END# Search Bar -->
 <!-- Top Bar -->
 <nav class="navbar">
@@ -117,7 +83,199 @@
             <a class="navbar-brand" href="../../index.html">ADMINBSB - MATERIAL DESIGN</a>
         </div>
         <div class="collapse navbar-collapse" id="navbar-collapse">
-
+            <ul class="nav navbar-nav navbar-right">
+                <!-- Call Search -->
+                <li><a href="javascript:void(0);" class="js-search" data-close="true"><i class="material-icons">search</i></a></li>
+                <!-- #END# Call Search -->
+                <!-- Notifications -->
+                <li class="dropdown">
+                    <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button">
+                        <i class="material-icons">notifications</i>
+                        <span class="label-count">7</span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li class="header">NOTIFICATIONS</li>
+                        <li class="body">
+                            <ul class="menu">
+                                <li>
+                                    <a href="javascript:void(0);">
+                                        <div class="icon-circle bg-light-green">
+                                            <i class="material-icons">person_add</i>
+                                        </div>
+                                        <div class="menu-info">
+                                            <h4>12 new members joined</h4>
+                                            <p>
+                                                <i class="material-icons">access_time</i> 14 mins ago
+                                            </p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0);">
+                                        <div class="icon-circle bg-cyan">
+                                            <i class="material-icons">add_shopping_cart</i>
+                                        </div>
+                                        <div class="menu-info">
+                                            <h4>4 sales made</h4>
+                                            <p>
+                                                <i class="material-icons">access_time</i> 22 mins ago
+                                            </p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0);">
+                                        <div class="icon-circle bg-red">
+                                            <i class="material-icons">delete_forever</i>
+                                        </div>
+                                        <div class="menu-info">
+                                            <h4><b>Nancy Doe</b> deleted account</h4>
+                                            <p>
+                                                <i class="material-icons">access_time</i> 3 hours ago
+                                            </p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0);">
+                                        <div class="icon-circle bg-orange">
+                                            <i class="material-icons">mode_edit</i>
+                                        </div>
+                                        <div class="menu-info">
+                                            <h4><b>Nancy</b> changed name</h4>
+                                            <p>
+                                                <i class="material-icons">access_time</i> 2 hours ago
+                                            </p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0);">
+                                        <div class="icon-circle bg-blue-grey">
+                                            <i class="material-icons">comment</i>
+                                        </div>
+                                        <div class="menu-info">
+                                            <h4><b>John</b> commented your post</h4>
+                                            <p>
+                                                <i class="material-icons">access_time</i> 4 hours ago
+                                            </p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0);">
+                                        <div class="icon-circle bg-light-green">
+                                            <i class="material-icons">cached</i>
+                                        </div>
+                                        <div class="menu-info">
+                                            <h4><b>John</b> updated status</h4>
+                                            <p>
+                                                <i class="material-icons">access_time</i> 3 hours ago
+                                            </p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0);">
+                                        <div class="icon-circle bg-purple">
+                                            <i class="material-icons">settings</i>
+                                        </div>
+                                        <div class="menu-info">
+                                            <h4>Settings updated</h4>
+                                            <p>
+                                                <i class="material-icons">access_time</i> Yesterday
+                                            </p>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="footer">
+                            <a href="javascript:void(0);">View All Notifications</a>
+                        </li>
+                    </ul>
+                </li>
+                <!-- #END# Notifications -->
+                <!-- Tasks -->
+                <li class="dropdown">
+                    <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button">
+                        <i class="material-icons">flag</i>
+                        <span class="label-count">9</span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li class="header">TASKS</li>
+                        <li class="body">
+                            <ul class="menu tasks">
+                                <li>
+                                    <a href="javascript:void(0);">
+                                        <h4>
+                                            Footer display issue
+                                            <small>32%</small>
+                                        </h4>
+                                        <div class="progress">
+                                            <div class="progress-bar bg-pink" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 32%">
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0);">
+                                        <h4>
+                                            Make new buttons
+                                            <small>45%</small>
+                                        </h4>
+                                        <div class="progress">
+                                            <div class="progress-bar bg-cyan" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 45%">
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0);">
+                                        <h4>
+                                            Create new dashboard
+                                            <small>54%</small>
+                                        </h4>
+                                        <div class="progress">
+                                            <div class="progress-bar bg-teal" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 54%">
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0);">
+                                        <h4>
+                                            Solve transition issue
+                                            <small>65%</small>
+                                        </h4>
+                                        <div class="progress">
+                                            <div class="progress-bar bg-orange" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 65%">
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0);">
+                                        <h4>
+                                            Answer GitHub questions
+                                            <small>92%</small>
+                                        </h4>
+                                        <div class="progress">
+                                            <div class="progress-bar bg-purple" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 92%">
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="footer">
+                            <a href="javascript:void(0);">View All Tasks</a>
+                        </li>
+                    </ul>
+                </li>
+                <!-- #END# Tasks -->
+                <li class="pull-right"><a href="javascript:void(0);" class="js-right-sidebar" data-close="true"><i class="material-icons">more_vert</i></a></li>
+            </ul>
         </div>
     </div>
 </nav>
@@ -647,7 +805,7 @@
 <section class="content">
     <div class="container-fluid">
         <div class="block-header">
-            <h2>CERRAR TICKET</h2>
+            <h2>ACTUALIZAR INTERVENCION</h2>
         </div>
 
 
@@ -657,7 +815,8 @@
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                 <div class="card">
                     <div class="header">
-                        <h2>CERRAR TICKET SOLO EN CASO DE QUE EL PROBLEMA ESTE RESUELTO
+                        <h2>
+                        EDITAR
                         </h2>
                         <ul class="header-dropdown m-r--5">
                             <li class="dropdown">
@@ -674,113 +833,90 @@
                         </ul>
                     </div>
                     <div class="body">
+                        <form>
 
+                            <!-- ESTADO-->
 
-                        <form action="listaticket.html" id="miForm">
-
-                            <!-- NUMERO DE TICKET -->
                             <div class="row clearfix">
-                                <div class="col-lg-2 col-md-2 col-sm-4 col-xs-5 form-control-label">
-                                    <label for="estado_ticket">Nuevo estado de Ticket</label>
+                                <div class="col-md-6">
+                                    <div class="form-line">
+                                        <label for="Estado actual">Estado actual</label>
+                                        <input type="text" class="form-control" id="Estado actual" value="Asignada" readonly>
+                                    </div>
                                 </div>
-                                <div class="col-lg-10 col-md-10 col-sm-8 col-xs-7">
-                                    <div class="form-group">
-                                        <div class="form-line">
-                                            <input type="text" id="estado_ticket" class="form-control" value="cerrado" readonly>
+
+                                <div class="row clearfix">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <div class="form-line">
+                                                <label for="Nuevo Estado">Nuevo estado</label>
+                                                <select class="form-control show-tick" id="Nuevo Estado">
+                                                    <option value="Asignada">Asignada</option>
+                                                    <option>Realizada</option>
+                                                </select>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
 
 
-                            <!-- FECHA DEL TICKET -->
-                            <div class="row clearfix">
-                                <div class="col-lg-2 col-md-2 col-sm-4 col-xs-5 form-control-label">
-                                    <label for="fecha_cierre">Fecha de Cierre</label>
+                                <div class="row clearfix">
+                                    <div class="col-sm-12">
+                                        <div class="form-group">
+                                            <div class="form-line">
+                                                <label>Descripcion</label>
+                                                <textarea rows="4" class="form-control no-resize"  placeholder="Descripcion solo lectura"  readonly></textarea>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="col-lg-10 col-md-10 col-sm-8 col-xs-7">
+
+
+
+
+                            <div class="row clearfix">
+                                <div class="col-md-12">
                                     <div class="form-group">
                                         <div class="form-line">
-                                            <input type="text" id="fecha_cierre" class="form-control date" value="08/05/2018" readonly>
+                                            <label>Clasificacion Ticket</label>
+                                            <select class="form-control show-tick">
+                                                <option value="Poner actual">Cambio de Configuracion de Sistema Operativo de PC</option>
+                                                <option>Problema en el funcionamiento del Sistema Operativo de PC</option>
+                                                <option>Solicitud de instalacion de aplicaciones</option>
+                                                <option>Mal funcionamiento de hardware</option>
+                                                <option>Problema de autenticación en los distintos sistemas</option>
+                                                <option>Problema de acceso a la red local o remota</option>
+                                                <option>Solicitud de usuario de red</option>
+                                                <option>Solicitud de usuario para sistemas informaticos que utiliza la empresa</option>
+                                                <option>Modificacion en los perfiles de usuarios</option>
+                                                <option>Solicitud de cambio de contraseña</option>
+                                                <option>Problema en los sistemas de la empresa</option>
+                                                <option>Problemas con el correo electronico</option>
+                                                <option>Solicitud de nuevos puestos de trabajo</option>
+                                                <option>Solicitud de soporte en el uso de alguna aplicacion o sistema</option>
+                                                <option>Otros</option>
+                                            </select>
                                         </div>
                                     </div>
                                 </div>
                             </div>
 
 
-                            <!-- HORA DEL TICKET-->
-                            <div class="row clearfix">
-                                <div class="col-lg-2 col-md-2 col-sm-4 col-xs-5 form-control-label">
-                                    <label for="hora_cierre">Hora de Cierre</label>
-                                </div>
-                                <div class="col-lg-10 col-md-10 col-sm-8 col-xs-7">
-                                    <div class="form-group">
-                                        <div class="form-line">
-                                            <input type="text" id="hora_cierre" class="form-control time12" value="11:43 pm" readonly>
+                                <div class="row clearfix">
+                                    <div class="col-sm-12">
+                                        <div class="form-group">
+                                            <div class="form-line">
+                                                <label>Observaciones</label>
+                                                <textarea rows="4" class="form-control no-resize"  placeholder="Please type what you want..."></textarea>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-
-                            <!-- DESCRIPCION DEL PROBLEMA-->
-                            <div class="row clearfix">
-                                <div class="col-lg-2 col-md-2 col-sm-4 col-xs-5 form-control-label">
-                                    <label for="observaciones_ticket">Observaciones</label>
-                                </div>
-                                <div class="col-lg-10 col-md-10 col-sm-8 col-xs-7">
-                                    <div class="form-group">
-                                        <div class="form-line">
-                                            <textarea  id="observaciones_ticket" name="description" cols="30" rows="5" class="form-control no-resize" ></textarea>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <script>
-                                function validar() {
-
-
-                                    var texto = document.getElementById('observaciones_ticket').value;
-
-                                    if (texto == '') {
-
-                                        $('#mdModal').modal("show");
-                                        return false;
-                                    }
-                                    else {
-                                        /* COPIA ORIGINAL DE SWAL  */
 
 
 
-                                        swal({
-                                            title: "Esta Segurisimo",
-                                            text: "Solamente cierre un ticket si esta seguro que fue resuelto",
-                                            icon: "warning",
-                                            buttons: true,
-                                            dangerMode: true,
-                                        })
-                                            .then((willDelete) => {
-                                            if (willDelete) {
-                                                document.getElementById('miForm').submit()
-                                            } else {
-                                                swal("El ticket continua en estado abierto");
-                                    }
-                                    });
-
-
-
-
-
-                                            //document.getElementById('miForm').submit()
-                                        }
-
-
-                                }
-                            </script>
-
-
-                            <button id="submm" type="button" class="btn btn-primary m-t-15 waves-effect" onclick="validar();">CERRAR TICKET</button>
-
+                            <button type="button" class="btn btn-primary m-t-15 waves-effect">ACTUALIZAR</button>
 
 
                         </form>
@@ -792,30 +928,6 @@
         </div>
 
 
-    </div>
-
-    <!-- For Material Design Colors -->
-    <div class="modal fade" id="mdModal" tabindex="-1" role="dialog">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content" style="background-color: #F44336; color: white">
-                <div class="modal-header">
-                    <h4 class="modal-title" id="defaultModalLabel">Modal title</h4>
-                </div>
-                <div class="modal-body" style="color: white">
-                    Debe añadir una descripción en las opciones.
-                </div>
-                <div class="modal-footer" style="background-color: rgba(0, 0, 0, 0.12);">
-
-                    <style>#unique:hover{
-                        background-color: rgba(0, 0, 0, 0.12);
-
-                    }</style>
-
-                    <button type="button" class="btn btn-link waves-effect" data-dismiss="modal"
-                            id="unique" style="color: white"c>CLOSE</button>
-                </div>
-            </div>
-        </div>
     </div>
 </section>
 
@@ -857,41 +969,6 @@
 <script src="../../js/pages/forms/advanced-form-elements.js"></script>
 
 <!--### TERMINAN LOS JS ###-->
-<script src="../../js/pages/ui/modals.js"></script>
-<script src="../../js/pages/ui/dialogs.js"></script>
-
-<!-- SweetAlert Plugin Js -->
-<script src="../../plugins/sweetalert/sweetalert.min.js"></script>
-
-<!--todos-->
-<!-- Jquery Core Js -->
-<script src="../../plugins/jquery/jquery.min.js"></script>
-
-<!-- Bootstrap Core Js -->
-<script src="../../plugins/bootstrap/js/bootstrap.js"></script>
-
-<!-- Select Plugin Js -->
-<script src="../../plugins/bootstrap-select/js/bootstrap-select.js"></script>
-
-<!-- Slimscroll Plugin Js -->
-<script src="../../plugins/jquery-slimscroll/jquery.slimscroll.js"></script>
-
-<!-- Bootstrap Notify Plugin Js -->
-<script src="../../plugins/bootstrap-notify/bootstrap-notify.js"></script>
-
-<!-- Waves Effect Plugin Js -->
-<script src="../../plugins/node-waves/waves.js"></script>
-
-<!-- SweetAlert Plugin Js -->
-<!--<script src="../../plugins/sweetalert/sweetalert.min.js"></script>-->
-<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
-
-<!-- Custom Js -->
-<script src="../../js/admin.js"></script>
-<script src="../../js/pages/ui/dialogs.js"></script>
-
-<!-- Demo Js -->
-<script src="../../js/demo.js"></script>
 
 
 </body>
