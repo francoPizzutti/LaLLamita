@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
-    <title>Listar-Ticket</title>
+    <title>Listar-Intervenciones</title>
     <!-- Favicon-->
     <link rel="icon" href="../../favicon.ico" type="image/x-icon">
 
@@ -832,10 +832,21 @@
             <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                 <div class="info-box-4 hover-zoom-effect">
                     <div class="icon">
+                        <i class="material-icons col-blue">person</i>
+                    </div>
+                    <div class="content">
+                        <div class="text">TRABAJANDO</div>
+                        <div class="number">92</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                <div class="info-box-4 hover-zoom-effect">
+                    <div class="icon">
                         <i class="material-icons col-light-blue">assignment_turned_in</i>
                     </div>
                     <div class="content">
-                        <div class="text">REALIZADAS</div>
+                        <div class="text">RESUELTAS</div>
                         <div class="number">154</div>
                     </div>
                 </div>
@@ -965,6 +976,7 @@
                                 <th>Fecha Asignacion</th>
                                 <th>Grupo de resolucion</th>
                                 <th>Observaciones</th>
+                                <th>Accion</th>
                             </tr>
                             </thead>
                             <tbody>
@@ -974,7 +986,7 @@
                                 <td>Solicitud Usuario de red</td>
                                 <td>Abierto sin derivar</td>
                                 <td>10/06/2005</td>
-                                <td>Asignada</td>
+                                <td>Trabajando</td>
                                 <td>11/06/2005</td>
                                 <td>Administrador proxy y correo electronico</td>
                                 <td>
@@ -983,6 +995,20 @@
                                                 data-placement="left" title="Informe de Observaciones" data-content="El problema fue resuelto por el equipo informatico y queda a la espera que el equipo de bases de datos soluciones el problema">
                                             <i class="material-icons">more_horiz</i>
                                         </button>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="demo-single-button-dropdowns">
+                                        <div class="btn-group">
+                                            <button type="button" class="btn bg-pink dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                Acción<span class="caret"></span>
+                                            </button>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="ActualizarIntervencion.html">Actualizar Estado</a></li>
+                                                <li><a href="ModificarObsIntervencion.html">Modificar Observacion</a></li>
+
+                                            </ul>
+                                        </div>
                                     </div>
                                 </td>
                             </tr>
@@ -999,6 +1025,44 @@
     </div>
 </section>
 
+<!-- Jquery Core Js -->
+<script src="../../plugins/jquery/jquery.min.js"></script>
+
+<!-- Bootstrap Core Js -->
+<script src="../../plugins/bootstrap/js/bootstrap.js"></script>
+
+<!-- Select Plugin Js -->
+<script src="../../plugins/bootstrap-select/js/bootstrap-select.js"></script>
+
+<!-- Slimscroll Plugin Js -->
+<script src="../../plugins/jquery-slimscroll/jquery.slimscroll.js"></script>
+
+<!-- Waves Effect Plugin Js -->
+<script src="../../plugins/node-waves/waves.js"></script>
+
+<!-- Jquery CountTo Plugin Js -->
+<script src="../../plugins/jquery-countto/jquery.countTo.js"></script>
+
+<!-- Morris Plugin Js -->
+<script src="../../plugins/raphael/raphael.min.js"></script>
+<script src="../../plugins/morrisjs/morris.js"></script>
+
+<!-- ChartJs -->
+<script src="../../plugins/chartjs/Chart.bundle.js"></script>
+
+<!-- Flot Charts Plugin Js -->
+<script src="../../plugins/flot-charts/jquery.flot.js"></script>
+<script src="../../plugins/flot-charts/jquery.flot.resize.js"></script>
+<script src="../../plugins/flot-charts/jquery.flot.pie.js"></script>
+<script src="../../plugins/flot-charts/jquery.flot.categories.js"></script>
+<script src="../../plugins/flot-charts/jquery.flot.time.js"></script>
+
+<!-- Sparkline Chart Plugin Js -->
+<script src="../../plugins/jquery-sparkline/jquery.sparkline.js"></script>
+
+<!-- Custom Js -->
+<script src="../../js/admin.js"></script>
+<script src="../../js/pages/index.js"></script>
 
 <!-- Demo Js -->
 <script src="../../js/demo.js"></script>
@@ -1040,12 +1104,6 @@
 <script src="../../js/pages/ui/tooltips-popovers.js"></script>
 
 
-<!-- Custom Js -->
-<script src="../../js/admin.js"></script>
-<script src="../../js/pages/index.js"></script>
-
-<!-- Demo Js -->
-<script src="../../js/demo.js"></script>
 
 <!--todos los modal->
 <!-- Jquery Core Js -->
