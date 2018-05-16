@@ -3,8 +3,9 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
-    <title>Registrar Ticket</title>
+    <title>Mesa de Ayuda</title>
     <!-- Favicon-->
     <link rel="icon" href="../../favicon.ico" type="image/x-icon">
 
@@ -15,17 +16,14 @@
     <!-- Bootstrap Core Css -->
     <link href="../../plugins/bootstrap/css/bootstrap.css" rel="stylesheet">
 
-    <!-- Bootstrap Select Css -->
-    <link href="../../plugins/bootstrap-select/css/bootstrap-select.css" rel="stylesheet" />
-
     <!-- Waves Effect Css -->
     <link href="../../plugins/node-waves/waves.css" rel="stylesheet" />
 
     <!-- Animation Css -->
     <link href="../../plugins/animate-css/animate.css" rel="stylesheet" />
 
-    <!-- Sweet Alert Css -->
-    <link href="../../plugins/sweetalert/sweetalert.css" rel="stylesheet" />
+    <!-- Morris Chart Css-->
+    <link href="../../plugins/morrisjs/morris.css" rel="stylesheet" />
 
     <!-- Custom Css -->
     <link href="../../css/style.css" rel="stylesheet">
@@ -262,157 +260,8 @@
 <section class="content">
     <div class="container-fluid">
         <div class="block-header">
-            <h2>REGISTRAR TICKETS</h2>
+            <h2>DASHBOARD</h2>
         </div>
-
-
-        <!-- Horizontal Layout -->
-        <div class="row clearfix">
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                <div class="card">
-                    <div class="header">
-                        <h2>
-                            REGISTRAR TICKETS
-                        </h2>
-                        <ul class="header-dropdown m-r--5">
-                            <li class="dropdown">
-                                <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-                                    <i class="material-icons">more_vert</i>
-                                </a>
-                                <ul class="dropdown-menu pull-right">
-                                    <li><a href="javascript:void(0);">Action</a></li>
-                                    <li><a href="javascript:void(0);">Another action</a></li>
-                                    <li><a href="javascript:void(0);">Something else here</a></li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="body">
-                        <form class="form-horizontal">
-                            <!-- NUMERO DE TICKET -->
-                            <div class="row clearfix">
-                                <div class="col-lg-2 col-md-2 col-sm-4 col-xs-5 form-control-label">
-                                    <label for="numero_ticket">Número de Ticket</label>
-                                </div>
-                                <div class="col-lg-10 col-md-10 col-sm-8 col-xs-7">
-                                    <div class="form-group">
-                                        <div class="form-line">
-                                            <input type="text" id="numero_ticket" class="form-control" value="001410" readonly>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-
-                            <!-- FECHA DEL TICKET -->
-                            <div class="row clearfix">
-                                <div class="col-lg-2 col-md-2 col-sm-4 col-xs-5 form-control-label">
-                                    <label for="fecha_registro">Fecha de Registro</label>
-                                </div>
-                                <div class="col-lg-10 col-md-10 col-sm-8 col-xs-7">
-                                    <div class="form-group">
-                                        <div class="form-line">
-                                            <input type="text" id="fecha_registro" class="form-control date" value="08/05/2018" readonly>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-
-                            <!-- HORA DEL TICKET-->
-                            <div class="row clearfix">
-                                <div class="col-lg-2 col-md-2 col-sm-4 col-xs-5 form-control-label">
-                                    <label for="hora_registro">Hora de Registro</label>
-                                </div>
-                                <div class="col-lg-10 col-md-10 col-sm-8 col-xs-7">
-                                    <div class="form-group">
-                                        <div class="form-line">
-                                            <input type="text" id="hora_registro" class="form-control time12" value="11:43 pm" readonly>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-
-                            <!-- NUMERO DE LEGAJO -->
-                            <div class="row clearfix">
-                                <div class="col-lg-2 col-md-2 col-sm-4 col-xs-5 form-control-label">
-                                    <label for="numero_legajo">Número de Legajo</label>
-                                </div>
-                                <div class="col-lg-10 col-md-10 col-sm-8 col-xs-7">
-                                    <div class="form-group">
-                                        <div class="form-line">
-                                            <input type="text" id="numero_legajo" class="form-control" placeholder="Ingrese un numero de legajo">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-
-                            <!--CLASIFICACION DE TICKET-->
-                            <div class="row clearfix">
-                                <div class="col-lg-2 col-md-2 col-sm-4 col-xs-5 form-control-label">
-                                    <label for="clasificacion_ticket">Clasificación de ticket</label>
-                                </div>
-                                <div class="col-lg-10 col-md-10 col-sm-8 col-xs-7">
-                                    <div class="form-group">
-                                        <div class="form-line">
-                                            <select class="form-control show-tick" id="clasificacion_ticket">
-                                                <option>Cambio de Configuracion de Sistema Operativo de PC</option>
-                                                <option>Problema en el funcionamiento del Sistema Operativo de PC
-                                                </option>
-                                                <option>Solicitud de instalacion de aplicaciones</option>
-                                                <option>Mal funcionamiento de hardware</option>
-                                                <option>Problema de autenticación en los distintos sistemas</option>
-                                                <option>Problema de acceso a la red local o remota</option>
-                                                <option>Solicitud de usuario de red</option>
-                                                <option>Solicitud de usuario para sistemas informaticos que utiliza la empresa</option>
-                                                <option>Modificacion en los perfiles de usuarios</option>
-                                                <option>Solicitud de cambio de contraseña</option>
-                                                <option>Problema en los sistemas de la empresa</option>
-                                                <option>Problemas con el correo electronico</option>
-                                                <option>Solicitud de nuevos puestos de trabajo</option>
-                                                <option>Solicitud de soporte en el uso de alguna aplicacion o sistema</option>
-                                                <option>Otros</option>
-                                            </select>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-
-
-
-
-                            <!-- DESCRIPCION DEL PROBLEMA-->
-                            <div class="row clearfix">
-                                <div class="col-lg-2 col-md-2 col-sm-4 col-xs-5 form-control-label">
-                                    <label for="descripcion_ticket">Descripción del problema</label>
-                                </div>
-                                <div class="col-lg-10 col-md-10 col-sm-8 col-xs-7">
-                                    <div class="form-group">
-                                        <div class="form-line">
-                                            <textarea  id="descripcion_ticket" name="description" cols="30" rows="5" class="form-control no-resize" required></textarea>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-
-                            <!-- BOTONES-->
-                            <div class="row clearfix">
-                                <div class="col-lg-offset-2 col-md-offset-2 col-sm-offset-4 col-xs-offset-5">
-                                    <button type="button" class="btn bg-cyan m-t-15 waves-effect">REGISTRAR</button>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- #END# Horizontal Layout -->
-
-
 
 
     </div>
@@ -433,8 +282,29 @@
 <!-- Waves Effect Plugin Js -->
 <script src="../../plugins/node-waves/waves.js"></script>
 
+<!-- Jquery CountTo Plugin Js -->
+<script src="../../plugins/jquery-countto/jquery.countTo.js"></script>
+
+<!-- Morris Plugin Js -->
+<script src="../../plugins/raphael/raphael.min.js"></script>
+<script src="../../plugins/morrisjs/morris.js"></script>
+
+<!-- ChartJs -->
+<script src="../../plugins/chartjs/Chart.bundle.js"></script>
+
+<!-- Flot Charts Plugin Js -->
+<script src="../../plugins/flot-charts/jquery.flot.js"></script>
+<script src="../../plugins/flot-charts/jquery.flot.resize.js"></script>
+<script src="../../plugins/flot-charts/jquery.flot.pie.js"></script>
+<script src="../../plugins/flot-charts/jquery.flot.categories.js"></script>
+<script src="../../plugins/flot-charts/jquery.flot.time.js"></script>
+
+<!-- Sparkline Chart Plugin Js -->
+<script src="../../plugins/jquery-sparkline/jquery.sparkline.js"></script>
+
 <!-- Custom Js -->
 <script src="../../js/admin.js"></script>
+<script src="../../js/pages/index.js"></script>
 
 <!-- Demo Js -->
 <script src="../../js/demo.js"></script>
