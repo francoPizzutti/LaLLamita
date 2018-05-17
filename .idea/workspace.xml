@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9cc80a0d-131d-4e12-82e4-a9a2a42f09f0" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/tp de diseño/ActualizarIntervencion.html" afterPath="$PROJECT_DIR$/pages/tp de diseño/ActualizarIntervencion.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/tp de diseño/consultarIntervenciones.html" afterPath="$PROJECT_DIR$/pages/tp de diseño/consultarIntervenciones.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/tp de diseño/listaIntervenciones.html" afterPath="$PROJECT_DIR$/pages/tp de diseño/listaIntervenciones.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dashboard.iml" afterPath="$PROJECT_DIR$/.idea/dashboard.iml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,65 +20,36 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="consultarIntervenciones.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/tp de diseño/consultarIntervenciones.html">
+      <file leaf-file-name="registrarClasificacionDeTickets.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pages/tp de diseño/registrarClasificacionDeTickets.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="845" column="48" lean-forward="false" selection-start-line="845" selection-start-column="48" selection-end-line="845" selection-end-column="74" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="listaIntervenciones.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/tp de diseño/listaIntervenciones.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="852" column="18" lean-forward="false" selection-start-line="852" selection-start-column="18" selection-end-line="852" selection-end-column="18" />
-              <folding>
-                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#aside#1;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#0;n#div#0;n#div#4;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="listaticket.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/tp de diseño/listaticket.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4233">
-              <caret line="295" column="18" lean-forward="false" selection-start-line="285" selection-start-column="12" selection-end-line="295" selection-end-column="18" />
+            <state relative-caret-position="17">
+              <caret line="880" column="64" lean-forward="true" selection-start-line="880" selection-start-column="64" selection-end-line="880" selection-end-column="64" />
               <folding>
                 <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ActualizarIntervencion.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pages/tp de diseño/ActualizarIntervencion.html">
+      <file leaf-file-name="consultarticket.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/tp de diseño/consultarticket.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="872" column="228" lean-forward="false" selection-start-line="872" selection-start-column="228" selection-end-line="872" selection-end-column="228" />
+            <state relative-caret-position="215">
+              <caret line="369" column="48" lean-forward="true" selection-start-line="369" selection-start-column="48" selection-end-line="381" selection-end-column="95" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ModificarObsIntervencion.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/tp de diseño/ModificarObsIntervencion.html">
+      <file leaf-file-name="advanced-form-elements.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/forms/advanced-form-elements.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="14501">
-              <caret line="853" column="98" lean-forward="false" selection-start-line="853" selection-start-column="98" selection-end-line="853" selection-end-column="98" />
+            <state relative-caret-position="375">
+              <caret line="30" column="4" lean-forward="false" selection-start-line="30" selection-start-column="4" selection-end-line="31" selection-end-column="82" />
               <folding />
             </state>
           </provider>
@@ -125,6 +93,8 @@
       <find>modal-title</find>
       <find>configurar</find>
       <find>href=&quot;javascript:void(0);&quot;&gt;Cerrar Ticket</find>
+      <find>Multi selec</find>
+      <find>grupo</find>
     </findStrings>
     <replaceStrings>
       <replace>href=&quot;cerrarticket.html&quot;&gt;Cerrar Ticket</replace>
@@ -155,6 +125,7 @@
         <option value="$PROJECT_DIR$/pages/tp de diseño/consultarIntervenciones.html" />
         <option value="$PROJECT_DIR$/pages/tp de diseño/listaIntervenciones.html" />
         <option value="$PROJECT_DIR$/pages/tp de diseño/ActualizarIntervencion.html" />
+        <option value="$PROJECT_DIR$/pages/tp de diseño/registrarClasificacionDeTickets.html" />
       </list>
     </option>
   </component>
@@ -168,8 +139,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="width" value="1382" />
+    <option name="height" value="784" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -186,7 +157,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -242,8 +212,27 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LaLLamita" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LaLLamita" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pages" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="forms" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -358,6 +347,7 @@
       <workItem from="1526424907066" duration="5324000" />
       <workItem from="1526501014327" duration="3807000" />
       <workItem from="1526507842898" duration="377000" />
+      <workItem from="1526577896439" duration="2599000" />
     </task>
     <task id="LOCAL-00001" summary="MODIFIQUE VARIOS ARCHIVOS">
       <created>1526422561827</created>
@@ -391,29 +381,28 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56180000" />
+    <option name="totallyTimeSpent" value="58779000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2015625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20131771" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -435,13 +424,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pages/tp de diseño/ActualizarIntervencion.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14467">
-          <caret line="851" column="81" lean-forward="false" selection-start-line="851" selection-start-column="81" selection-end-line="851" selection-end-column="81" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/tp de diseño/infoticket.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="14705">
@@ -658,13 +640,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/forms/advanced-form-elements.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="932" column="36" lean-forward="false" selection-start-line="932" selection-start-column="28" selection-end-line="932" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/forms/form-examples.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="355">
@@ -707,13 +682,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/tp de diseño/consultarticket.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="45" column="16" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="267" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="473">
@@ -728,13 +696,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/tp de diseño/derivarTicket.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="267" column="10" lean-forward="false" selection-start-line="267" selection-start-column="10" selection-end-line="267" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/tp de diseño/derivarTicket.html" />
     <entry file="file://$PROJECT_DIR$/pages/tp de diseño/cerrarticket.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1462">
@@ -742,25 +704,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/tp de diseño/BarraLateralMA.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="260" column="33" lean-forward="true" selection-start-line="260" selection-start-column="33" selection-end-line="260" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/tp de diseño/ModificarObsIntervencion.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14501">
-          <caret line="853" column="98" lean-forward="false" selection-start-line="853" selection-start-column="98" selection-end-line="853" selection-end-column="98" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/tp de diseño/BarraLateralMA.html" />
+    <entry file="file://$PROJECT_DIR$/pages/tp de diseño/ModificarObsIntervencion.html" />
     <entry file="file://$PROJECT_DIR$/pages/tp de diseño/listaticket.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4233">
-          <caret line="295" column="18" lean-forward="false" selection-start-line="285" selection-start-column="12" selection-end-line="295" selection-end-column="18" />
+        <state relative-caret-position="629">
+          <caret line="83" column="18" lean-forward="false" selection-start-line="83" selection-start-column="18" selection-end-line="83" selection-end-column="18" />
           <folding>
             <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -768,38 +717,80 @@
             <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <marker date="1526577817706" expanded="true" signature="27597:27671" ph="..." />
+            <marker date="1526577817706" expanded="true" signature="27597:27718" ph="..." />
+            <marker date="1526577817706" expanded="true" signature="27597:27761" ph="..." />
+            <marker date="1526577817706" expanded="true" signature="27597:27799" ph="..." />
+            <marker date="1526577817706" expanded="true" signature="27597:27833" ph="..." />
+            <marker date="1526577817706" expanded="true" signature="27597:27871" ph="..." />
+            <marker date="1526577817706" expanded="true" signature="27597:27904" ph="..." />
+            <marker date="1526577817706" expanded="true" signature="27597:27931" ph="..." />
+            <marker date="1526577817706" expanded="true" signature="27597:27954" ph="..." />
+            <marker date="1526577817706" expanded="true" signature="27597:27973" ph="..." />
+            <marker date="1526577817706" expanded="true" signature="27597:27988" ph="..." />
+            <marker date="1526577817706" expanded="true" signature="27597:28038" ph="..." />
+            <marker date="1526577817706" expanded="true" signature="27597:28049" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/tp de diseño/consultarIntervenciones.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="845" column="48" lean-forward="false" selection-start-line="845" selection-start-column="48" selection-end-line="845" selection-end-column="74" />
+        <state relative-caret-position="14399">
+          <caret line="847" column="48" lean-forward="false" selection-start-line="847" selection-start-column="48" selection-end-line="847" selection-end-column="48" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/tp de diseño/listaIntervenciones.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="852" column="18" lean-forward="false" selection-start-line="852" selection-start-column="18" selection-end-line="852" selection-end-column="18" />
-          <folding>
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#aside#1;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#4;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/tp de diseño/ActualizarIntervencion.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
-          <caret line="872" column="228" lean-forward="false" selection-start-line="872" selection-start-column="228" selection-end-line="872" selection-end-column="228" />
+          <caret line="876" column="38" lean-forward="false" selection-start-line="876" selection-start-column="38" selection-end-line="876" selection-end-column="38" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/tp de diseño/listaIntervenciones.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="869" column="8" lean-forward="true" selection-start-line="869" selection-start-column="8" selection-end-line="938" selection-end-column="14" />
+          <folding>
+            <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#aside#1;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/forms/advanced-form-elements.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="30" column="4" lean-forward="false" selection-start-line="30" selection-start-column="4" selection-end-line="31" selection-end-column="82" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/tp de diseño/consultarticket.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="369" column="48" lean-forward="true" selection-start-line="369" selection-start-column="48" selection-end-line="381" selection-end-column="95" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/tp de diseño/registrarClasificacionDeTickets.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="880" column="64" lean-forward="true" selection-start-line="880" selection-start-column="64" selection-end-line="880" selection-end-column="64" />
+          <folding>
+            <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
